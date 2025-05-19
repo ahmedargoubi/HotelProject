@@ -1,0 +1,71 @@
+:root{
+  --teal: #8c7343;
+  --teal_hover: #e9c58a;
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+.h-font{
+  font-family: 'Merienda', cursive;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.custom-bg{
+  background-color: var(--teal);
+  border: 1px solid var(--teal);
+}
+.custom-bg:hover{
+  background-color: var(--teal_hover);
+  border-color: var(--teal_hover);
+}
+
+.h-line{
+  width: 150px;
+  margin: 0 auto;
+  height: 1.7px;
+}
+
+.custom-alert{
+  position: fixed;
+  top: 80px;
+  right: 25px;
+  z-index: 1111;
+}
+.footer-dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.footer-dark .footer-link {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 8px;
+  transition: color 0.3s ease;
+}
+
+.footer-dark .footer-link:hover {
+  color: #fff;
+}
+
+.footer-dark .btn-subscribe {
+  background-color: #a8864c;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.footer-dark .btn-subscribe:hover {
+  background-color: #c9a663;
+}

@@ -1,0 +1,30 @@
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# PHP files to ignore
+/vendor/
+composer.lock
+
+# Environment files
+.env
+config.php
+
+# IDE files
+/.idea/
+/.vscode/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Cache files
+*.cache
+
+# Custom configuration
+# Uncomment if you don't want to include database config
+# /admin/inc/db_config.php
+
+# Uploads folder (uncomment if you don't want to include uploaded content)
+# /uploads/
